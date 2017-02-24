@@ -3,6 +3,9 @@
 This repo demonstrates an apparent issue with snyk.io with recent versions of node (7.5.0), in that it appears to behave
 differently depending on whether --legacy-bundling is used.
 
+The test package installs the vulnerable package grunt-jsdoc-to-markdown@0.4.3 as a `devDependency`, which according to
+[snyk docs](https://snyk.io/docs/using-snyk/#wizard), should NOT be scanned.
+
 ## Prereqs
 
 Install [`nvm`](https://github.com/creationix/nvm#installation) and run `nvm use` if necessary
