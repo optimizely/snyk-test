@@ -3,6 +3,12 @@
 This repo demonstrates an apparent issue with snyk.io with recent versions of node (7.5.0), in that it appears to behave
 differently depending on whether --legacy-bundling is used.
 
+## Prereqs
+
+Install [`nvm`](https://github.com/creationix/nvm#installation) and run `nvm use` if necessary
+
+## Test
+
 Run ./test.sh:
 ```sh
 ✗ High severity vulnerability found on marked@0.3.6
