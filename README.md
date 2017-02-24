@@ -12,9 +12,10 @@ Run ./test.sh:
 Fix: None available. Consider removing this dependency.
 
 Tested 13 dependencies for known vulnerabilities, found 1 vulnerability, 1 vulnerable path.
-```sh
-Run ./test_legacy.sh
 ```
+
+Run ./test_legacy.sh
+```sh
 ✓ Tested 0 dependencies for known vulnerabilities, no vulnerable paths found.
 
 Next steps:
