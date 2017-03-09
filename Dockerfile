@@ -9,4 +9,4 @@ COPY package.json /app
 RUN npm install
 RUN npm prune --production
 
-CMD ls node_modules
+CMD npm ls --production
