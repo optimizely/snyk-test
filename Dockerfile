@@ -6,7 +6,7 @@ RUN apk update && apk add git
 WORKDIR /app
 
 COPY package.json /app
-RUN npm install
+RUN npm install --legacy-bundling
 RUN npm prune --production
 
 CMD npm ls --production
